@@ -1,0 +1,168 @@
+/*Container*/
+#Hero-img {
+    /* The image used */
+    background-image: url("./media/spinning-record-player-with-vintage-vinyl.jpg");
+  
+    min-height: 380px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* Needed to position the navbar */
+    position: relative;
+    background-color: #F2F2F2;
+  }
+  #Hero-text {
+padding-left: 200px;
+padding-top: 80px;
+color:#D97373;
+font-family: ubuntu;
+  }
+  
+  /* Position the navbar container inside the image */
+  #Container {
+    position: relative;
+    margin: 20px;
+    width: auto;
+   
+  }
+  
+  /* The navbar */
+  .topnav {
+    overflow: hidden;
+    background-color: none;
+    opacity:1;
+  padding-right: 80px;
+  padding-top: 30px;
+  font-family: ubuntu;
+   
+  }
+  
+  /* Navbar links */
+  .topnav a {
+   float: right;
+    color: #F2F2F2;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: ubuntu;
+  }
+  
+  .topnav a:hover {
+    background-color:black;
+    opacity: 0.3;
+  }
+  #Introducción{
+ display: block;
+ position: relative;
+ width: 100%;
+ background-color: #F2F2F2;
+ font-family: mono;
+
+ 
+
+  }
+  #Pioneros {
+background-color: #D97373;
+display: grid;
+grid-template-columns: auto auto auto auto;
+font-family: mono;
+position:relative;
+padding-bottom: 140px;
+
+
+
+  }
+  img{
+    width: 75%;
+    height: 50%;
+   position: relative;
+   padding-left: 30px;
+   padding-top: 15px;
+  
+   
+  }
+  #Artistas {
+   
+    text-align: left;
+    transition: 0.3s;
+    width: 85%;
+    background-color: #F2F2F2;
+   
+    
+  }
+  
+  
+  #Texto {
+   width: 95%;
+  background-color: #F2F2F2;
+  background-position: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 2px 16px;
+
+
+  }
+#Galeria{
+    width: 75%;
+}
+#Video{
+  padding-top: 30px;
+  text-align: center;
+}
+#Artistas{
+  background-color: #D97373;
+background-position: 10px;
+}
+footer{
+background-image: conic-gradient(from 177deg at 0% 100%, rgb(84, 71, 63) 0%, rgb(225, 218, 210) 100%) ;
+text-align: center;
+padding: 10px;
+padding-bottom: 10px;
+color: #F2F2F2;
+font-family: ubuntu;
+}
+#Footer
+{
+  color: #F2F2F2;
+  font-family: ubuntu;
+}
+ul{
+  list-style: none;
+}
+body{
+  background-color: #F2F2F2;
+}
+@font-face{
+  font-family: ubuntu;
+  src: url(./fonts/Ubuntu/Ubuntu-Medium.ttf)
+}
+@font-face{
+  font-family: mono;
+  src: url(./fonts/Space_Mono/SpaceMono-Regular.ttf)
+}
+@media screen and (max-width: 600px) {
+  #Introducción{
+  width: 100%;
+  }
+  #Pioneros{
+    grid-template-columns: auto;
+    text-align: center;
+  }
+  #Video{
+width:25%;
+  }
+  #Hero-text{
+    text-align: center;
+    padding: 0px;
+    padding-top: 20px;
+    
+
+}
+.topnav{
+text-align: center;
+padding: 0px;
+}
+}
